@@ -3,16 +3,41 @@
     padding: 0;
 }
 
+.menu {
+    background: #941818;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
 .imagem {
-    background: fixed;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 843px;
+    opacity: 0.7;
+}
+
+.normal {
+    background: local #000;
+    height: 853px;
+    width: 100%;
     color: #fff;
     font-size: 1em;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.normal {
-    background: local #000;
-    color: #fff;
-    font-size: 1em;
-    font-family: 'Courier New', Courier, monospace;
+#img1 {
+    background: url("./images/imagem1.jpg");
+}
+
+#img2 {
+    background: url("./images/imagem2.jpg");
+}
+
+#img3 {
+    background: url("./images/imagem3.jpg");
 }
